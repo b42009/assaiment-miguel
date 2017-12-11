@@ -55,12 +55,12 @@
      <Compile Include="Assets\scripts\paddalkey.cs" />
      <Compile Include="Assets\scripts\playagan.cs" />
      <Compile Include="Assets\scripts\righttriger.cs" />
+     <Compile Include="Assets\scripts\spund.cs" />
      <Compile Include="Assets\scripts\syart.cs" />
      <Compile Include="Assets\scripts\uvemovment.cs" />
-     <Compile Include="Assets\spund.cs" />
      <None Include="Assets\font\information.txt" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>E:/games programing/Assets/Assaiment/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>E:/games programing/assaiments git/Assets/Assaiment/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

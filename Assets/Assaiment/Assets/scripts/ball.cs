@@ -30,7 +30,7 @@ public class ball : MonoBehaviour {
         {
             gameObject.transform.position = new Vector3(0, 0, gameObject.transform.position.z);
         }
-        if (Input.GetMouseButtonDown(0) &&righttriger.reset == 0 )
+        if (Input.GetMouseButtonDown(0) && righttriger.reset == 0 )
         {
             float Yaxes;
             float Xaxes;
@@ -86,6 +86,8 @@ public class ball : MonoBehaviour {
 
             gamestart = true;
             this.GetComponent<Rigidbody2D>().velocity = new Vector2(Xaxes, Yaxes);
+            righttriger.reset = 2;
+            lefttrig.reset = 2;
         }
 
 

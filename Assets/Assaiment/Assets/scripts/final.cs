@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class final : MonoBehaviour {
     // int barca = righttriger.sccor;
     //int uve = lefttrig.sccor;
+    int barca = righttriger.maxamaunt;
+    int uve = lefttrig.maxamaunt;
     public Text result1;
     public Text result2;
     public Text finalresult;
@@ -14,16 +16,16 @@ public class final : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
- //       result1.text = "Barcelona = " + barca;
- //       result2.text = "Uventus = " + uve;
- //       if(uve > barca)
- //       {
- //           finalresult.text = "Uventus win !!!";
- //       }
- //       else
- //       {
- //           finalresult.text = "barcelona win !!!";
- //       }
+       result1.text = "Barcelona = " + barca;
+       result2.text = "Uventus = " + uve;
+       if(uve > barca)
+       {
+           finalresult.text = "Uventus win !!!";
+       }
+       else
+       {
+           finalresult.text = "barcelona win !!!";
+       }
 		
 	}
 	

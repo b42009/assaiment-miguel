@@ -15,8 +15,8 @@ public class syart : MonoBehaviour {
         if (Input.GetMouseButtonDown(0))
         {
             SceneManager.LoadScene("level1");
-            lefttrig.sccor = 0;
-            righttriger.sccor = 0;
+            lefttrig.maxamaunt = 0;
+            righttriger.maxamaunt = 0;
         }
     }
 
